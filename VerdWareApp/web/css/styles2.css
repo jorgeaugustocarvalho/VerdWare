@@ -1,0 +1,307 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/02/2022, 01:49:15
+    Author     : javgc
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ccfca2;
+}
+
+.body {
+  background-color: #ccfca2;
+}
+
+.formulario {
+  background-color: rgb(244, 250, 237);
+}
+
+.loginBox {
+  display: flex;
+  border-radius: 56px;
+  width: 800px;
+  height: 470px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-vector {
+  width: 130px;
+  text-align: center;
+  flex: 3 0 auto;
+  border-radius: 56px 0px 0px 56px;
+  background-color: #ffffff;
+}
+
+.login {
+  width: 125px;
+  flex: 1.4 0 auto;
+  border-radius: 0px 56px 56px 0px;
+  background-color: #8bcd53;
+}
+
+.frase {
+  font-family: "Poppins";
+  margin-top: 0px;
+  color: #75b23f;
+  font-size: 16px;
+}
+
+.voltar {
+  font-family: "Poppins";
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form {
+  margin: 0 auto 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /*border: solid 1px red;*/
+}
+
+.tabela {
+  width: 600px;
+  margin-top: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(205, 241, 163);
+}
+
+.cabecalho {
+  width: 579px;
+  background-color: rgb(124, 146, 99);
+  margin-bottom: 15px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cadastro {
+  line-height: 2;
+}
+
+.form-entrada {
+  width: 500px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn-success {
+  background-color: #4e833a;
+  font-family: "Poppins";
+}
+
+.btn-cancel {
+  background-color: rgb(204, 88, 88);
+  font-family: "Poppins";
+  color: #ffffff;
+}
+
+.btn-form {
+  background-color: rgb(244, 250, 237);
+}
+
+.container {
+  margin-top: 80px;
+  margin-left: 270px;
+}
+
+.titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 23px;
+}
+
+.cadastro {
+  font-family: "Poppins";
+  color: honeydew;
+}
+
+.logo-titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 0px;
+  color: #75b23f;
+  letter-spacing: 5px;
+}
+
+.logo-titulo2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #4e833a;
+}
+
+.titulo {
+  color: white;
+}
+
+.input-text {
+  line-height: 2;
+  outline: none;
+  font-family: "Poppins";
+  font-style: italic;
+  border: none;
+  width: 80%;
+  border-radius: 10px;
+  padding-left: 27px;
+  padding-right: 20px;
+  background-color: #e5ffce;
+  border: solid 2px #baeb8e;
+  margin-bottom: 20px;
+}
+
+button {
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.btn {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.textinho {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #e5ffce;
+}
+
+.links {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #e5ffce;
+}
+
+/*Animations*/
+
+.tracking-in-expand-fwd {
+  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+}
+
+.card {
+  width: 170px;
+  padding: 5px;
+  margin-left: 60px;
+  margin-top: 35px;
+}
+
+.card-x {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-family: Poppins;
+  color: #75b23f;
+  text-align: center;
+}
+
+.img-a {
+  max-width: 100%;
+  height: 100px;
+}
+
+.img-b {
+  height: 100px;
+}
+
+.img-perfil {
+  height: 100px;
+  width: 150px;
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.titulo-perfil {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: white;
+}
+
+.subtitulo-perfil {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: white;
+}
+
+.btn-add {
+  background-color: #4e833a;
+  font-family: "Poppins";
+  background-color: #75b23f;
+  color: white;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.title-plantas {
+  font-family: "Poppins";
+  margin-top: 0px;
+  color: #75b23f;
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.flex {
+  display: flex;
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
